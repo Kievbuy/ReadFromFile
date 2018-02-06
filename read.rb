@@ -7,4 +7,10 @@ while (line = input.gets)
   hh[arr[0]] = arr[1].to_i
 end
 
-puts hh
+x = 0
+
+hh.each_value do |salary|
+	x += salary
+end
+
+puts x
